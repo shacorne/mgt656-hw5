@@ -9,4 +9,4 @@ app.get('/nickname', function(request, response){
     response.send('brainy-dinosaur');
 });
 
-app.listen(process.env.PORT || 4000, process.env.IP || 'localhost');
+app.listen(process.env.PORT || 4000);
